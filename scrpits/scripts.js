@@ -31,9 +31,13 @@ async function getSuggestions() {
 }
 
 function displaySuggestions(data) {
-    // console.log(data)
+
+    // let ele = document.getElementsByName('poke')
+    // let placeHolderDisplay = ele[0].placeholder;
     let displaySug = document.getElementById('suggestions');
+    // console.log(placeHolderDisplay)
     displaySug.innerText = data.name;
+    // console.log(data)
 }
 
 async function randomFunction() {
