@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>PokeAPI Integration</title>
+</head>
+<body style="background-color: antiquewhite;">
+    <section class="mt-4 container d-flex flex-column" style="align-content: space-evenly">
+    <h1 class="text-center mt-5">Pokemon Cards</h1>
+        <form role="form" class="text-center mt-3 mb-3">
+            <input
+            type="text"
+            class="form-control"
+            name=""
+            id="textInput"
+            aria-describedby="helpId"
+            placeholder=" "
+            />
+            <button id="poikButton" type="button" class="w-25 mt-4 btn btn-primary">GO!</button>
+            <button id="random" type="button" class="w-25 mt-4 btn btn-secondary">Random Pokemon</button>
+            <button id="reset" type="button" class="w-25 mt-4 btn btn-danger">RESET</button>
+        </form>
+        <p class=" text-center mt-3">Suggestions: <span style="color: coral;" id="suggestions"></span></p>
+        
+        <div style="display: flex; justify-content: center;" id="pokiDisplay"></div>
+
+    </section>
+
+
+    <script src="./scrpits/scripts.js"></script>  
+</body>
+</html>
