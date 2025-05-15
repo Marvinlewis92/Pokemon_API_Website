@@ -24,6 +24,8 @@ async function getSuggestions() {
         displaySuggestions(data)
         // console.log(data.results)
         count++
+
+        
         
     } catch (error) {
         console.error("suggestions failed", error)
